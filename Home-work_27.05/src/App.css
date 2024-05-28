@@ -1,0 +1,49 @@
+.main-elements {
+  max-width: 1550px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(255, 0, 157);
+}
+
+.main-element {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 240px;
+  max-width: 320px;
+}
+
+.main-element a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.main-element-links a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.main-element img {
+  max-width: 240px;
+}
+
+.main-element-links {
+  display: flex;
+  flex-direction: column;
+}
